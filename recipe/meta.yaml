@@ -43,6 +43,7 @@ requirements:
     - r-scales
     - r-tidyr >=0.6.1
     - r-xts
+    - r-bh
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
@@ -57,6 +58,7 @@ requirements:
     - r-scales
     - r-tidyr >=0.6.1
     - r-xts
+    - r-bh
 
 test:
   commands:
