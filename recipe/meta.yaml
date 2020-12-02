@@ -14,9 +14,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 1
-  # given by the availability of rstan
-  skip: true  # [win]
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
@@ -77,6 +75,7 @@ extra:
   recipe-maintainers:
     - conda-forge/r
     - philip-khor
+    - oblute
 
 # Package: prophet
 # Title: Automatic Forecasting Procedure
