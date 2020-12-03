@@ -1,0 +1,13 @@
+diff --git a/src/Makevars.win b/src/Makevars.win
+index 1851eb4..db908d3 100644
+--- a/src/Makevars.win
++++ b/src/Makevars.win
+@@ -2,7 +2,7 @@
+ 
+ STANHEADERS_SRC = $(shell "$(R_HOME)/bin$(R_ARCH_BIN)/Rscript" -e "message()" -e "cat(system.file('include', 'src', package = 'StanHeaders', mustWork = TRUE))" -e "message()" | grep "StanHeaders")
+ 
+-PKG_CPPFLAGS = -I"../inst/include" -I"$(STANHEADERS_SRC)" -DBOOST_DISABLE_ASSERTS -DEIGEN_NO_DEBUG
++PKG_CPPFLAGS = -I"../inst/include/ $(CXX1XSTD)" -I"$(STANHEADERS_SRC)" -DBOOST_DISABLE_ASSERTS -DEIGEN_NO_DEBUG
+ 
+ CXX_STD = CXX14
+ 

@@ -11,6 +11,8 @@ source:
     - {{ cran_mirror }}/src/contrib/prophet_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/prophet/prophet_{{ version }}.tar.gz
   sha256: 61c2f9c11676f77896fea188d74acd28a9be0ce94769aac7c083848118816521
+  patches:
+    - makevars-win.patch
 
 build:
   merge_build_host: true  # [win]
