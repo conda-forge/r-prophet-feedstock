@@ -50,7 +50,7 @@ requirements:
     - r-ggplot2
     - r-rlang >=0.3.0.1
     - r-rstan >=2.18.1
-    - r-rstantools >=2.0.0
+    - r-rstantools ==2.0.0
     - r-scales
     - r-tidyr >=0.6.1
     - r-xts
@@ -67,7 +67,7 @@ requirements:
     - r-ggplot2
     - r-rlang >=0.3.0.1
     - r-rstan >=2.18.1
-    - r-rstantools >=2.0.0
+    - r-rstantools ==2.0.0
     - r-scales
     - r-tidyr >=0.6.1
     - r-xts
