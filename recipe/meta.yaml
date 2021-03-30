@@ -1,4 +1,4 @@
-{% set version = "0.6.1" %}
+{% set version = "1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/prophet_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/prophet/prophet_{{ version }}.tar.gz
-  sha256: 61c2f9c11676f77896fea188d74acd28a9be0ce94769aac7c083848118816521
+  sha256: 94bea364c7c625bd34fee08da221b7a6c4d3ef939869f22229b2273fb7f2b91a
 
 build:
   merge_build_host: true  # [win]
-  number: 2
-  skip: True  # [win and r_base == "4.0"]
+  number: 0
+  skip: true  # [win and r_base == "4.0"]
   rpaths:
     - lib/R/lib/
     - lib/
