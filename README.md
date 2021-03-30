@@ -3,7 +3,7 @@ About r-prophet
 
 Home: https://github.com/facebook/prophet
 
-Package license: BSD_3_clause
+Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-prophet-feedstock/blob/master/LICENSE.txt)
 
