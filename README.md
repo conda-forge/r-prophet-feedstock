@@ -214,6 +214,3 @@ Feedstock Maintainers
 * [@oblute](https://github.com/oblute/)
 * [@philip-khor](https://github.com/philip-khor/)
 
-
-<!-- dummy commit to enable rerendering -->
-
