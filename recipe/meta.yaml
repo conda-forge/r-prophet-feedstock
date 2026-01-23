@@ -1,4 +1,4 @@
-{% set version = "1.0" %}
+{% set version = "1.1.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/prophet_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/prophet/prophet_{{ version }}.tar.gz
-  sha256: 94bea364c7c625bd34fee08da221b7a6c4d3ef939869f22229b2273fb7f2b91a
+  sha256: 8f4fcb32bfd17537b19f5b41c0d92bde943cd6347211b8073f1d129ecaf4b12b
 
 build:
-  number: 6
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
